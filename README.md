@@ -24,7 +24,6 @@ Der Lernfortschritt wird nur im Browser des jeweiligen Geräts gespeichert (loca
 3. **Branch:** `main`, Ordner **`/ (root)`** → **Save**.
 4. Nach 1–2 Minuten ist die Seite unter https://sh060281.github.io/Test-/ erreichbar (Adresse steht oben auf der Pages-Seite).
 
-Wichtig: Die Dateien liegen zurzeit auf dem Branch `claude/bbz-kontooeffnung-lernseite-fzlvt2`. Entweder diesen Branch zuerst per Pull Request in `main` übernehmen, oder in Schritt 3 diesen Branch auswählen.
 Bei kostenlosen GitHub-Konten funktioniert Pages nur, wenn das Repository **öffentlich** (public) ist.
 Wird das Repository umbenannt, ändert sich die Adresse – dann muss der QR-Code neu erzeugt werden.
 
