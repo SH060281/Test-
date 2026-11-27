@@ -11,7 +11,7 @@ Der Lernfortschritt wird nur im Browser des jeweiligen Geräts gespeichert (loca
 | Lernpfad | Adresse | Ordner |
 |---|---|---|
 | Kontoeröffnung Schritt für Schritt | https://sh060281.github.io/Test-/ | Hauptordner |
-| Basiskonto und P-Konto | https://sh060281.github.io/Test-/basiskonto-p-konto/ | `basiskonto-p-konto/` (eigene `js/inhalte.js`, eigener `qr-code.png`, eigene `PRUEFLISTE-LEHRKRAFT.md`; nutzt `css/style.css` und `bbz-logo.png` aus dem Hauptordner) |
+| Basiskonto und P-Konto | https://sh060281.github.io/Test-/basiskonto-p-konto/ | `basiskonto-p-konto/` (eigene `js/inhalte.js`, eigener `qr-code.png`, eigene `PRUEFLISTE-LEHRKRAFT.md`, Word-Fassung mit Lösungen in `word/`; nutzt `css/style.css` und `bbz-logo.png` aus dem Hauptordner) |
 
 ## Dateien
 
