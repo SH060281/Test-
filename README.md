@@ -6,6 +6,13 @@ Der Lernfortschritt wird nur im Browser des jeweiligen Geräts gespeichert (loca
 
 **Adresse nach Veröffentlichung:** https://sh060281.github.io/Test-/
 
+## Lernpfade in diesem Repository
+
+| Lernpfad | Adresse | Ordner |
+|---|---|---|
+| Kontoeröffnung Schritt für Schritt | https://sh060281.github.io/Test-/ | Hauptordner |
+| Basiskonto und P-Konto | https://sh060281.github.io/Test-/basiskonto-p-konto/ | `basiskonto-p-konto/` (eigene `js/inhalte.js`, eigener `qr-code.png`, eigene `PRUEFLISTE-LEHRKRAFT.md`; nutzt `css/style.css` und `bbz-logo.png` aus dem Hauptordner) |
+
 ## Dateien
 
 | Datei | Inhalt |

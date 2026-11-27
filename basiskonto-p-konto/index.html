@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basiskonto und P-Konto</title>
+  <meta name="description" content="Interaktiver Lernpfad zu Basiskonto und Pfändungsschutzkonto (P-Konto) für Auszubildende zur Bankkauffrau / zum Bankkaufmann – BBZ Schleswig, Bankwirtschaft.">
+  <meta name="theme-color" content="#c8102e">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/zusatz.css">
+</head>
+<body>
+  <header class="kopf">
+    <div class="kopf-inner">
+      <a href="#" aria-label="Zur Startseite">
+        <img class="logo" src="../bbz-logo.png" alt="BBZ Schleswig"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+        <span class="logo-ersatz" style="display:none">BBZ<span>Schleswig</span></span>
+      </a>
+      <div class="kopf-titel">
+        <strong>Basiskonto &amp; P-Konto</strong>
+        Bankwirtschaft
+      </div>
+    </div>
+    <div class="fortschritt">
+      <div class="fortschritt-balken" id="fortschritt-balken" role="progressbar"
+           aria-label="Lernfortschritt" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="fortschritt-fuellung" id="fortschritt-fuellung"></div>
+      </div>
+      <div class="fortschritt-text" id="fortschritt-text"></div>
+    </div>
+  </header>
+
+  <main id="app">
+    <noscript>Bitte aktiviere JavaScript, um den Lernpfad zu nutzen.</noscript>
+  </main>
+
+  <script src="js/inhalte.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

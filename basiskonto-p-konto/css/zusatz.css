@@ -1,0 +1,27 @@
+/* Ergänzungen für den Lernpfad Basiskonto & P-Konto (Grundlayout: ../css/style.css) */
+.marke { display: inline-block; font-size: 13px; line-height: 1.3; padding: 2px 8px; border-radius: 999px;
+  margin: 4px 6px 0 0; background: var(--grau-100); color: var(--grau-700); font-weight: 600; }
+.marke.pflicht { background: var(--rot-hell); color: var(--rot-dunkel); }
+.marke.experte { background: var(--grau-700); color: var(--weiss); }
+.rechner, .zahl-eingabe { display: grid; gap: 10px; margin: 12px 0; }
+.rechner label, .zahl-eingabe label { font-weight: 600; font-size: 16px; }
+.rechner input, .zahl-eingabe input { font: inherit; padding: 10px 12px; border: 2px solid var(--grau-300);
+  border-radius: 10px; width: 100%; max-width: 260px; background: var(--weiss); color: var(--text); }
+.rechner input:focus-visible, .zahl-eingabe input:focus-visible { outline: 3px solid var(--rot); outline-offset: 2px; }
+.zahl-eingabe input.richtig { border-color: var(--gruen); background: var(--gruen-hell); }
+.zahl-eingabe input.falsch { border-color: var(--rot); background: var(--rot-hell); }
+.rechner-ergebnis { background: var(--gruen-hell); border-left: 5px solid var(--gruen); border-radius: 8px; padding: 10px 14px; }
+.rechner-ergebnis table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.rechner-ergebnis td { padding: 3px 0; }
+.rechner-ergebnis td:last-child { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.rechner-ergebnis tr.summe td { border-top: 2px solid var(--gruen); font-weight: 700; padding-top: 6px; }
+.laufzettel td:nth-child(n+3), .laufzettel th:nth-child(n+3) { text-align: center; }
+.kaestchen { display: inline-block; width: 18px; height: 18px; border: 2px solid var(--grau-700); border-radius: 3px; }
+.zitat { background: var(--grau-100); border-radius: 8px; padding: 8px 12px; margin: 6px 0; }
+.zitat.gut { border-left: 5px solid var(--gruen); }
+.zitat.schlecht { border-left: 5px solid var(--rot); }
+@media print {
+  .kopf, .btn, .btn-reihe, .nicht-drucken { display: none !important; }
+  body { background: #fff; font-size: 13px; }
+  .karte { box-shadow: none; border: 1px solid #999; }
+}
